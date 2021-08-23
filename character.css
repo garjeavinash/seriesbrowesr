@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    }
+    body
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 9px;
+        background-image:url("https://i.pinimg.com/originals/f4/52/a2/f452a2f4b634b3011e065da8eaf0a5c3.gif")
+    }
+    .container
+    {
+        background-color: rgb(112, 217, 224);
+        padding: 15px 20px 15px 20px; 
+        border: 2px solid rgba(23, 32, 11, 0.596);
+        border-radius: 5px;
+        font-size: 20px;
+        width: 60%;
+        margin-left: 260px;
+    }
+    input[type="text"],
+    input[type="number"]
+    {
+        width: 100%;
+        border: 2px solid rgba(5, 5, 5, 0.61);
+        border-radius: 4px;
+    
+    }
+    fieldset
+    {
+        border: 3px solid rgba(0, 0, 0, 0.589);
+    
+    }
+    input[type="submit"]
+    {
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    }
+    input[type="submit"]:hover
+    {
+     background-color: rgba(0, 0, 0, 0.555) ;   
+    }
+    .Head
+    {
+        text-align: center;
+    
+    }
+    .navbar ul li
+
+{
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10vw;
+  margin-left: 10vw;
+  margin-right: 15vw;
+   color: black;
+   margin-top: -20vh;
+}

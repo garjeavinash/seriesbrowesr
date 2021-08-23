@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    }
+    body
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 9px;
+        background-image:url("https://thumbs.gfycat.com/IndolentFailingAsp-max-14mb.gif")
+    }
+    .container
+    {
+        background-color: rgb(131, 72, 49);
+        padding: 15px 20px 15px 20px; 
+        border: 2px solid rgb(231, 228, 228);
+        border-radius: 5px;
+        font-size: 20px;
+        width: 60%;
+        margin-left: 260px;
+    }
+    input[type="text"],
+    input[type="number"]
+    {
+        width: 100%;
+        border: 2px solid rgb(253, 253, 252);
+        border-radius: 4px;
+    
+    }
+    fieldset
+    {
+        border: 3px solid rgb(146, 97, 97);
+    
+    }
+    input[type="submit"]
+    {
+    background-color: rgb(214, 116, 116);
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    }
+    input[type="submit"]:hover
+    {
+     background-color: rgb(128, 0, 0) ;   
+    }
+    .Head
+    {
+        text-align: center;
+    
+    }
+    .navbar ul li
+
+{
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10vw;
+  margin-left: 10vw;
+  margin-right: 15vw;
+   color: rgb(252, 248, 248);
+   margin-top: -20vh;
+}
